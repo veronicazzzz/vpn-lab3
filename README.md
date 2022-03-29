@@ -53,7 +53,7 @@
 
 ![2ip](https://user-images.githubusercontent.com/63861460/160577896-1f5bcf03-780f-49e9-b943-555bd2f4c579.png)
 
-7. Pапускаем Wireshark и держим примерно в течение минуты (также проверяя несколько адресов). 
+7. Запускаем Wireshark и держим примерно в течение минуты (также проверяя несколько адресов). 
 Результаты работы Wireshark находятся в папке wireshark-tests.
 
 ![wireshark](https://user-images.githubusercontent.com/63861460/160579102-149d3d26-6f93-4963-a9ea-5482b54134bf.png)
