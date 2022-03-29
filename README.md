@@ -1,6 +1,7 @@
 ## Wireguard
 
 1. Создаем сервер на DigitalOcean.
+
 ![капля](https://user-images.githubusercontent.com/63861460/160569021-f0dba480-9af1-4645-8862-b4f9286701d2.png)
 
 2. Генерируем пару ключей для сервера, которые позже используем в wg0.conf для сервера. 
