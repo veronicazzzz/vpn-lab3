@@ -4,7 +4,7 @@
 
 ![капля](https://user-images.githubusercontent.com/63861460/160569021-f0dba480-9af1-4645-8862-b4f9286701d2.png)
 
-2. Генерируем пару ключей для сервера, которые позже используем в wg0.conf для сервера. 
+2. Подключаемся к серверу, генерируем пару ключей, которые позже используем в wg0.conf для сервера. 
 
 3. То же самое проделываем для клиента, после чего файлы .conf принимают следующий вид:
 
@@ -30,4 +30,32 @@
 ![рутркер](https://user-images.githubusercontent.com/63861460/160572853-47133e7e-64b5-4931-8293-c86a36df0cb0.jpg)
 
 ![инста](https://user-images.githubusercontent.com/63861460/160572884-5a1652f6-c53d-4603-b444-f5b87a1008a6.jpg)
+
+## IPSec/IKEv2
+
+1. Также создаем сервер на DigitalOcean.
+
+![капля](https://user-images.githubusercontent.com/63861460/160576702-68860b04-652a-4f5f-9534-ba688364caf8.png)
+
+2. Подключаемся к серверу, используем `wget https://git.io/vpnsetup -qO vpn.sh && sudo sh vpn.sh`.
+
+3. Получаем данные для подключения (ip, username, password).
+
+4. Чтобы подключиться, нам необходим файл vpnclient.p12. Скачиваем его с сервера, используя FileZilla:
+
+![filezilla](https://user-images.githubusercontent.com/63861460/160578471-af6c2cfd-a450-4d2e-b04d-3590bfdc490f.png)
+
+5. Подключаемся с клиента (Windows):
+
+![подключение](https://user-images.githubusercontent.com/63861460/160577719-bbb57b52-2ad1-4eb7-9468-ea1c0ed48cf6.png)
+
+6. Проверяем по 2ip:
+
+![2ip](https://user-images.githubusercontent.com/63861460/160577896-1f5bcf03-780f-49e9-b943-555bd2f4c579.png)
+
+7. Pапускаем Wireshark и держим примерно в течение минуты (также проверяя несколько адресов). 
+Результаты работы Wireshark находятся в папке wireshark-tests.
+
+![wireshark](https://user-images.githubusercontent.com/63861460/160579102-149d3d26-6f93-4963-a9ea-5482b54134bf.png)
+
 
