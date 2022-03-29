@@ -1,4 +1,4 @@
-#Настройка VPN подключений Wireguard и IPSec/IKEv2
+# Настройка VPN подключений Wireguard и IPSec/IKEv2
 
 Выполнили: Завьялова, Казачкова, Ким.
 
