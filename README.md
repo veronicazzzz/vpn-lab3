@@ -62,4 +62,7 @@
 
 ![wireshark](https://user-images.githubusercontent.com/63861460/160579102-149d3d26-6f93-4963-a9ea-5482b54134bf.png)
 
+8. `ipconfig`:
+
+![изображение](https://user-images.githubusercontent.com/63861460/160748880-cf4e8f0c-d055-4a4c-b2a2-564792a54a49.png)
 
